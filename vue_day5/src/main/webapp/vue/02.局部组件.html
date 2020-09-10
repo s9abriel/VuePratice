@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02.局部组件的开发</title>
+</head>
+<body>
+<div id="app">
+
+    <!--使用组件-->
+    <login></login>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    //全局组建
+    let login={
+        template: '<div><h1>用户登录</h1></div>'
+    };
+
+    const app = new Vue({
+        el: "#app",
+        data: {},
+        methods:{},
+        components: {
+            login: login
+        }
+    });
+</script>
+</body>
+</html>

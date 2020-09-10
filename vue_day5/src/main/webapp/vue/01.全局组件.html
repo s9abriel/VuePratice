@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01.全局组建的开发</title>
+</head>
+<body>
+<div id="app">
+
+    <!--使用组件-->
+    <login></login>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    //全局组建
+    Vue.component('login',{
+        template: '<div><h1>用户登录</h1></div>'
+    })
+    const app = new Vue({
+        el: "#app",
+        data: {},
+        methods:{}
+    });
+</script>
+</body>
+</html>

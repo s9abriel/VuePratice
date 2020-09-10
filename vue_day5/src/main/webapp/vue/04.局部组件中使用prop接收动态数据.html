@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03.局部组件中使用prop接收数据 </title>
+</head>
+<body>
+<div id="app">
+
+    <!--使用组件-->
+    <login :name="username"></login>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    //全局组建
+    const login={
+        template: '<div><h2>欢迎：{{ name }}</h2></div>',
+        props: ['name']
+    };
+
+    const app = new Vue({
+        el: "#app",
+        data: {
+            username:"小陈陈"
+        },
+        methods:{},
+        components: {
+            login
+        }
+    });
+</script>
+</body>
+</html>
