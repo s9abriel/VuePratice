@@ -4,6 +4,7 @@
     <list default="true" id="eb666ef9-8766-4de3-8741-8db9718c3b41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/s9abriel/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/s9abriel/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/s9abriel/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/s9abriel/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/dev/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1gtrt6GlOyPSC3DSy2CvxKfROXq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +47,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue_day5/src/main/webapp/vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue_day6/src/main/webapp/WEB-INF" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -53,6 +61,8 @@
       <recent name="com.s9abrielvue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../vue_day6/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/../vue_day6/src/main/webapp/WEB-INF/js" />
       <recent name="$PROJECT_DIR$/../vue_day5/src/main/webapp/vue" />
       <recent name="$PROJECT_DIR$/src/main/webapp/bootvue/js" />
     </key>
@@ -110,7 +120,7 @@
       <workItem from="1599189914310" duration="3893000" />
       <workItem from="1599211542628" duration="11014000" />
       <workItem from="1599483900221" duration="21275000" />
-      <workItem from="1599725729347" duration="5107000" />
+      <workItem from="1599725729347" duration="12494000" />
     </task>
     <servers />
   </component>
@@ -137,40 +147,44 @@
       <screen x="0" y="23" width="1738" height="1097" />
     </state>
     <state x="1113" y="291" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1738.1097@0.23.1738.1097" timestamp="1599117533104" />
-    <state width="1701" height="263" key="GridCell.Tab.0.bottom" timestamp="1599725723483">
-      <screen x="47" y="23" width="1745" height="1097" />
+    <state width="851" height="263" key="GridCell.Tab.0.bottom" timestamp="1599807135801">
+      <screen x="44" y="23" width="1748" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.bottom/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144565" />
     <state width="1696" height="303" key="GridCell.Tab.0.bottom/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898942" />
     <state width="1696" height="303" key="GridCell.Tab.0.bottom/0.23.1740.1097@0.23.1740.1097" timestamp="1599122338450" />
     <state width="1699" height="263" key="GridCell.Tab.0.bottom/0.23.1741.1097@0.23.1741.1097" timestamp="1599488646477" />
+    <state width="851" height="263" key="GridCell.Tab.0.bottom/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135801" />
     <state width="2518" height="263" key="GridCell.Tab.0.bottom/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063682" />
     <state width="1701" height="263" key="GridCell.Tab.0.bottom/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723483" />
-    <state width="1701" height="263" key="GridCell.Tab.0.center" timestamp="1599725723482">
-      <screen x="47" y="23" width="1745" height="1097" />
+    <state width="851" height="263" key="GridCell.Tab.0.center" timestamp="1599807135800">
+      <screen x="44" y="23" width="1748" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.center/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144564" />
     <state width="1696" height="303" key="GridCell.Tab.0.center/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898941" />
     <state width="1696" height="303" key="GridCell.Tab.0.center/0.23.1740.1097@0.23.1740.1097" timestamp="1599122338449" />
     <state width="1699" height="263" key="GridCell.Tab.0.center/0.23.1741.1097@0.23.1741.1097" timestamp="1599488646476" />
+    <state width="851" height="263" key="GridCell.Tab.0.center/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135800" />
     <state width="2518" height="263" key="GridCell.Tab.0.center/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063681" />
     <state width="1701" height="263" key="GridCell.Tab.0.center/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723482" />
-    <state width="1701" height="263" key="GridCell.Tab.0.left" timestamp="1599725723482">
-      <screen x="47" y="23" width="1745" height="1097" />
+    <state width="851" height="263" key="GridCell.Tab.0.left" timestamp="1599807135799">
+      <screen x="44" y="23" width="1748" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.left/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144564" />
     <state width="1696" height="303" key="GridCell.Tab.0.left/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898941" />
     <state width="1696" height="303" key="GridCell.Tab.0.left/0.23.1740.1097@0.23.1740.1097" timestamp="1599122338449" />
     <state width="1699" height="263" key="GridCell.Tab.0.left/0.23.1741.1097@0.23.1741.1097" timestamp="1599488646476" />
+    <state width="851" height="263" key="GridCell.Tab.0.left/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135799" />
     <state width="2518" height="263" key="GridCell.Tab.0.left/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063681" />
     <state width="1701" height="263" key="GridCell.Tab.0.left/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723482" />
-    <state width="1701" height="263" key="GridCell.Tab.0.right" timestamp="1599725723482">
-      <screen x="47" y="23" width="1745" height="1097" />
+    <state width="851" height="263" key="GridCell.Tab.0.right" timestamp="1599807135800">
+      <screen x="44" y="23" width="1748" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.right/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144564" />
     <state width="1696" height="303" key="GridCell.Tab.0.right/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898941" />
     <state width="1696" height="303" key="GridCell.Tab.0.right/0.23.1740.1097@0.23.1740.1097" timestamp="1599122338450" />
     <state width="1699" height="263" key="GridCell.Tab.0.right/0.23.1741.1097@0.23.1741.1097" timestamp="1599488646476" />
+    <state width="851" height="263" key="GridCell.Tab.0.right/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135800" />
     <state width="2518" height="263" key="GridCell.Tab.0.right/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063682" />
     <state width="1701" height="263" key="GridCell.Tab.0.right/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723482" />
     <state width="1701" height="263" key="GridCell.Tab.1.bottom" timestamp="1599725723484">
@@ -232,9 +246,10 @@
     <state x="0" y="23" key="SettingsEditor/0.23.1738.1097@0.23.1738.1097" timestamp="1599117866685" />
     <state x="0" y="23" width="1740" height="1097" key="SettingsEditor/0.23.1740.1097@0.23.1740.1097" timestamp="1598952805077" />
     <state x="0" y="23" key="SettingsEditor/0.23.1741.1097@0.23.1741.1097" timestamp="1599485699445" />
-    <state x="287" y="234" key="new project wizard" timestamp="1599734008771">
-      <screen x="45" y="23" width="1747" height="1097" />
+    <state x="286" y="234" key="new project wizard" timestamp="1599792046621">
+      <screen x="44" y="23" width="1748" height="1097" />
     </state>
+    <state x="286" y="234" key="new project wizard/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599792046621" />
     <state x="287" y="234" key="new project wizard/1792.-297.2560.1417/45.23.1747.1097@45.23.1747.1097" timestamp="1599734008771" />
   </component>
 </project>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="vue_day6" />
         <module name="vue_day5" />
         <module name="vue_day4" />
       </profile>
@@ -13,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="vue_day4" target="1.8" />
       <module name="vue_day5" target="1.7" />
+      <module name="vue_day6" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01.vue路由使用</title>
+</head>
+<body>
+<div id="app">
+    <a href="#/login">用户登录</a>
+    <a href="#/register">用户注册</a>
+
+
+    <router-link to="/login" tag="button">我要登录</router-link>
+    <router-link to="/register" tag="span">我要注册</router-link>
+
+
+
+
+    <router-view></router-view>
+
+
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./js/vue-router.js"></script>
+<script>
+    //statement component
+    const login={
+        template:"<h1>登录</h1>"
+    };
+    const register={
+        template:"<h1>注册</h1>"
+    };
+
+    //create router object
+    const router = new VueRouter({
+       routes:[
+
+           //根路由 默认
+           {path: '/',component: login},
+           {path:'/login',component:login},
+           {path:'/register',component:register}
+       ]
+    });
+    const app = new Vue({
+        el: "#app",
+        data: {},
+        methods: {},
+        router//设置路由对象
+    });
+</script>
+</body>
+</html>
