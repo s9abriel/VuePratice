@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eb666ef9-8766-4de3-8741-8db9718c3b41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../vue_day6/src/main/webapp/WEB-INF/04.vue中的路由中嵌套路由使用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/s9abriel/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/s9abriel/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/s9abriel/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/s9abriel/service/UserServiceImpl.class" afterDir="false" />
@@ -21,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -57,6 +76,13 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/s9abriel/sql" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/bootvue/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/bootvue" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.s9abrielvue" />
     </key>
@@ -65,13 +91,6 @@
       <recent name="$PROJECT_DIR$/../vue_day6/src/main/webapp/WEB-INF/js" />
       <recent name="$PROJECT_DIR$/../vue_day5/src/main/webapp/vue" />
       <recent name="$PROJECT_DIR$/src/main/webapp/bootvue/js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/com/s9abriel/sql" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/bootvue/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/bootvue" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.VueDay4Application">
@@ -120,12 +139,24 @@
       <workItem from="1599189914310" duration="3893000" />
       <workItem from="1599211542628" duration="11014000" />
       <workItem from="1599483900221" duration="21275000" />
-      <workItem from="1599725729347" duration="12494000" />
+      <workItem from="1599725729347" duration="17190000" />
+      <workItem from="1600066352697" duration="6296000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="153" key="#Project_Structure" timestamp="1599708267530">
@@ -147,8 +178,8 @@
       <screen x="0" y="23" width="1738" height="1097" />
     </state>
     <state x="1113" y="291" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1738.1097@0.23.1738.1097" timestamp="1599117533104" />
-    <state width="851" height="263" key="GridCell.Tab.0.bottom" timestamp="1599807135801">
-      <screen x="44" y="23" width="1748" height="1097" />
+    <state width="1703" height="263" key="GridCell.Tab.0.bottom" timestamp="1599921808259">
+      <screen x="45" y="23" width="1747" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.bottom/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144565" />
     <state width="1696" height="303" key="GridCell.Tab.0.bottom/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898942" />
@@ -157,8 +188,9 @@
     <state width="851" height="263" key="GridCell.Tab.0.bottom/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135801" />
     <state width="2518" height="263" key="GridCell.Tab.0.bottom/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063682" />
     <state width="1701" height="263" key="GridCell.Tab.0.bottom/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723483" />
-    <state width="851" height="263" key="GridCell.Tab.0.center" timestamp="1599807135800">
-      <screen x="44" y="23" width="1748" height="1097" />
+    <state width="1703" height="263" key="GridCell.Tab.0.bottom/45.23.1747.1097@45.23.1747.1097" timestamp="1599921808259" />
+    <state width="1703" height="263" key="GridCell.Tab.0.center" timestamp="1599921808258">
+      <screen x="45" y="23" width="1747" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.center/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144564" />
     <state width="1696" height="303" key="GridCell.Tab.0.center/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898941" />
@@ -167,8 +199,9 @@
     <state width="851" height="263" key="GridCell.Tab.0.center/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135800" />
     <state width="2518" height="263" key="GridCell.Tab.0.center/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063681" />
     <state width="1701" height="263" key="GridCell.Tab.0.center/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723482" />
-    <state width="851" height="263" key="GridCell.Tab.0.left" timestamp="1599807135799">
-      <screen x="44" y="23" width="1748" height="1097" />
+    <state width="1703" height="263" key="GridCell.Tab.0.center/45.23.1747.1097@45.23.1747.1097" timestamp="1599921808258" />
+    <state width="1703" height="263" key="GridCell.Tab.0.left" timestamp="1599921808258">
+      <screen x="45" y="23" width="1747" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.left/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144564" />
     <state width="1696" height="303" key="GridCell.Tab.0.left/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898941" />
@@ -177,8 +210,9 @@
     <state width="851" height="263" key="GridCell.Tab.0.left/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135799" />
     <state width="2518" height="263" key="GridCell.Tab.0.left/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063681" />
     <state width="1701" height="263" key="GridCell.Tab.0.left/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723482" />
-    <state width="851" height="263" key="GridCell.Tab.0.right" timestamp="1599807135800">
-      <screen x="44" y="23" width="1748" height="1097" />
+    <state width="1703" height="263" key="GridCell.Tab.0.left/45.23.1747.1097@45.23.1747.1097" timestamp="1599921808258" />
+    <state width="1703" height="263" key="GridCell.Tab.0.right" timestamp="1599921808258">
+      <screen x="45" y="23" width="1747" height="1097" />
     </state>
     <state width="1694" height="263" key="GridCell.Tab.0.right/0.23.1736.1097@0.23.1736.1097" timestamp="1599444144564" />
     <state width="1696" height="303" key="GridCell.Tab.0.right/0.23.1738.1097@0.23.1738.1097" timestamp="1599182898941" />
@@ -187,6 +221,7 @@
     <state width="851" height="263" key="GridCell.Tab.0.right/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599807135800" />
     <state width="2518" height="263" key="GridCell.Tab.0.right/1792.-297.2560.1417/47.23.1745.1097@1792.-297.2560.1417" timestamp="1599641063682" />
     <state width="1701" height="263" key="GridCell.Tab.0.right/1792.-297.2560.1417/47.23.1745.1097@47.23.1745.1097" timestamp="1599725723482" />
+    <state width="1703" height="263" key="GridCell.Tab.0.right/45.23.1747.1097@45.23.1747.1097" timestamp="1599921808258" />
     <state width="1701" height="263" key="GridCell.Tab.1.bottom" timestamp="1599725723484">
       <screen x="47" y="23" width="1745" height="1097" />
     </state>
@@ -251,5 +286,9 @@
     </state>
     <state x="286" y="234" key="new project wizard/1792.-297.2560.1417/44.23.1748.1097@44.23.1748.1097" timestamp="1599792046621" />
     <state x="287" y="234" key="new project wizard/1792.-297.2560.1417/45.23.1747.1097@45.23.1747.1097" timestamp="1599734008771" />
+    <state x="2737" y="186" key="run.anything.popup" timestamp="1600079571219">
+      <screen x="1792" y="-297" width="2560" height="1417" />
+    </state>
+    <state x="2737" y="186" key="run.anything.popup/1792.-297.2560.1417/48.23.1744.1097@1792.-297.2560.1417" timestamp="1600079571219" />
   </component>
 </project>

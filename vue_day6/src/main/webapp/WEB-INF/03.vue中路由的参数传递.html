@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01.vue路由使用</title>
+</head>
+<body>
+<div id="app">
+
+    <router-link to="/login?id=21&name=zhangsan">我要登录</router-link>
+    <router-link to="/register/24/李四">我要注册</router-link>
+
+    <router-view></router-view>
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./js/vue-router.js"></script>
+<script>
+    //statement component
+    const login = {
+        template: '<h1>用户登录{{ this.$route.query.id }},姓名为:{{ this.$route.query.name }}</h1>',
+        data(){return{}},
+        methods: {},
+        created() {
+            console.log("===========>" + this.$route.query.id+"===========>" + this.$route.query.name);
+            // console.log(this.$route.query.id);
+        }
+    };
+    const register = {
+        template: '<h1>用户注册{{ this.$route.params.name }}</h1>',
+        created() {
+            console.log("注册中的id："+this.$route.params.id + this.$route.params.name);
+        }
+    };
+    //create router object
+    var router = new VueRouter({
+       routes:[
+           {path:'/',redirect:'/login'},
+           {path:'/login',component:login},
+           {path:'/register/:id/:name',component:register}
+       ]
+    });
+
+    const app = new Vue({
+        el: "#app",
+        data: {},
+        methods: {},
+        router//设置路由对象
+    });
+</script>
+</body>
+</html>
