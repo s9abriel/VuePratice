@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/vue_day4.iml" filepath="$PROJECT_DIR$/vue_day4.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vue_day5/vue_day5.iml" filepath="$PROJECT_DIR$/../vue_day5/vue_day5.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vue_day6/vue_day6.iml" filepath="$PROJECT_DIR$/../vue_day6/vue_day6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vue_day7/vue_day7.iml" filepath="$PROJECT_DIR$/../vue_day7/vue_day7.iml" />
     </modules>
   </component>
 </project>

@@ -8,20 +8,49 @@
 <div id="app">
 
 
+    <router-link to="/product">商品管理</router-link>
 
+    <router-view></router-view>
+</div>
 
+<template id="product">
+    <div>
+    <h1>商品管理</h1>
+    <router-link to="/product/add">商品添加</router-link>
+    <router-link to="/product/edit">商品编辑</router-link>
+    <router-view></router-view>
+    </div>
+</template>
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="./js/vue-router.js"></script>
 <script>
     //声明组件模版
     const product={
-        template:'商品',
+        template:'#product'
+    };
+
+    const add={
+        template: '<h1>商品添加</h1>'
+    }
+    const edit={
+        template: '<h1>商品编辑</h1>'
     }
 
     //定义路由对象
-    new VueRouter({
-        routes:[]
+    const router = new VueRouter({
+        routes:[
+            {
+                path:'/product',
+                component:product,
+                children:[
+                    {path:'add',component: add},
+                    {path:'edit',component: edit}
+                ]
+            },
+
+
+        ]
     })
 
     const app = new Vue({

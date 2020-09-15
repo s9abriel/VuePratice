@@ -1,0 +1,13 @@
+package com.s9abriel.vue_day7;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class VueDay7ApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
