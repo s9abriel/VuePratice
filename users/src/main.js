@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 
+
 	
 Vue.prototype.$http=axios //修改内部的$http为axios
 Vue.config.productionTip = false
